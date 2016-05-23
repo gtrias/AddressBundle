@@ -21,7 +21,7 @@ class GeocoderService
      * @param GeocoderInterface $geocoder
      * @param FormatterService  $formatter
      */
-    public function __construct(GeocoderInterface $geocoder, FormatterService $formatter)
+    public function __construct($geocoder, FormatterService $formatter)
     {
         $this->geocoder = $geocoder;
         $this->formatter = $formatter;
