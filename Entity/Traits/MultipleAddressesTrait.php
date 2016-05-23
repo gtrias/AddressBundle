@@ -14,7 +14,7 @@ trait MultipleAddressesTrait
     /**
      * @var \Doctrine\Common\Collections\Collection[AddressInterface]
      *
-     * @ORM\ManyToMany(targetEntity="Padam87\AddressBundle\Entity\Address")
+     * @ORM\ManyToMany(targetEntity="Padam87\AddressBundle\Entity\Address", cascade={"persist"})
      * @Assert\Valid()
      */
     protected $addresses;
