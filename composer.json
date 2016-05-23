@@ -11,10 +11,6 @@
             "email": "prager.adam87@gmail.com"
         }
     ],
-    "require": {
-        "php": "~7.0",
-        "willdurand/geocoder-bundle": "~3.0"
-    },
     "require-dev": {
         "satooshi/php-coveralls": "dev-master"
     },
